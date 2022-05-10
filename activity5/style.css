@@ -1,0 +1,178 @@
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+
+*{
+    background-color: #FFFFFF;
+	font-family: 'Roboto', sans-serif;
+}
+.navbar-expand-lg .navbar-nav {
+    flex-direction: row;
+}
+.navbar-nav {
+    display: flex;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+.mt-lg-0 {
+    margin-top: 0!important;
+}
+li {
+	display: block;
+}
+li a {
+    display: inline-block;
+    padding-left: 15px;
+    color: #000000;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-decoration: none;
+}
+li a:hover {
+    color: #006AFF;
+}
+hr.solid {
+	border-top: 1px solid #FFFFFF;
+}
+h2{
+	font-weight: 700;
+	font-size: 72px;
+	line-height: 72px;
+	letter-spacing: -1px;
+}
+h4 {
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 48px;
+	letter-spacing: -.08px;
+}
+h3 {
+	font-size: 60px;
+    line-height: 60px;
+    font-weight: 700;
+}
+.font-1 {
+    font-size: 18px;
+}
+.font-2 {
+    font-size: 20px;
+}
+.font-3 {
+    font-size: 16px;
+}
+.font-4 {
+    font-size: 24px;
+}
+button {
+    padding: 0px 24px;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+button:hover {
+	color: #00D5FF;
+}
+
+.header .TitleButton {
+    background-color: #000000;
+}
+.header .ArticleButton {
+    background-color: #FC0E52;
+}
+.header img {
+    height: auto;
+    width: 100%;
+}
+.header .sapcing{
+    margin-top: 50px;
+}
+.header p {
+    margin-top: 150px;
+}
+
+
+.body-1 .columnInfo {
+    padding: 50px;
+    background: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+}
+.pink-background {
+    background: #FC0E52;
+    color: #FFFFFF;
+    padding-left: 48px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    margin-top: -40px;
+}
+.pink-background li a {
+    color: #FFFFFF;
+}
+.pink-background .info3 li a:hover {
+    color: #FFFFFF;
+}
+.body-2 img {
+    width: 100%;
+    height: auto;
+}
+.body-3 img {
+    width: 100%;
+    height: auto;
+}
+.body-4 {
+    width: 100%;
+    height: auto;
+}
+
+
+.footer {
+    background: #000000;
+    color: #FFFFFF;
+    padding: 96px;
+}
+.footer img {
+    border: none;
+    border-radius: 100px;
+}
+
+
+@media screen and (max-width: 800px) {
+    h2 {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 48px;
+        letter-spacing: -1px;
+    }
+    h3 {
+        font-size: 36px;
+	    line-height: 48px;
+	    font-weight: 700;
+    }
+    h4 {
+        font-weight: 700;
+		font-size: 36px;
+		line-height: 48px;
+		letter-spacing: -0.08px;
+    }
+    
+    .font-1 {
+        font-size: 18px;
+    }
+    .font-2 {
+        font-size: 18px;
+    }
+    .font-3 {
+        font-size: 16px;
+    }
+    .font-4 {
+        font-size: 18px;
+    }
+
+    .header .sapcing {
+        margin-top: 10px;
+    }
+    .header p {
+        margin-top: 0px;
+    }
+}
